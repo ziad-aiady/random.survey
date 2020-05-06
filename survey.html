@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Survey</title>
+        <link rel="stylesheet" href="surveystyle.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Random Survey by ZIAD AYADI</h1>
+            <p id="thanks">Thank you for taking the time to help me improve myself</p>
+        </div>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label>Name: </label>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="  Enter your name"
+                    id="name"
+                    required>
+                </div>
+                <div class="form-group">
+                    <label>Email: </label>
+                    <input 
+                        type="text"
+                        name="email"
+                        placeholder="  Type your Email"
+                        id="email"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label>Age <span class="subp">(optional):</span></label>
+                    <input type="number"
+                      name="age"
+                      placeholder="  Age"
+                      id="age"
+                      min="10"
+                      max="99"
+                      >
+                </div>
+                <div class="form-group">
+                    <p>What Is The best football team in Egypt?</p>
+                    <select name="best" id="select" class="form"
+                    required>
+                        <option disabled selected value>Choose a team</option>
+                        <option value="ismaily">Ismaily SC</option>
+                        <option value="darawesh">El Darawesh</option>
+                        <option value="manga">El Mangawya El Sa7lawya</option>
+                        <option value="yellow">That Yellow Team from Ismaillia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>What Superpowers would you like to have?
+                        <span id="subp">(you can choose more than one)</span></p>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="Invisibility"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Invisibility
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="lasereyes"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Laser Eyes
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="flying"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Flying
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="superstrength"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Super Strength
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="superspeed"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Super Speed
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="superflexibility"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Super Flexibility
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="telekinesis"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Telekinesis
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="vampiarism"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Vampiarism
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="shapeshifting"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Shape Shifting
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="eyesight"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Eagle's Eyesight
+                    </label>
+                    <label>
+                        <input 
+                        name="superpower"
+                        value="mindreading"
+                        type="checkbox"
+                        class="input-checkbox"
+                        >
+                        Mind Reading
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>Give me your Comments or Suggestions:</p>
+                    <textarea
+                    id="comments"
+                    class="input-textarea"
+                    name="comment"
+                    placeholder="enter your comment here....">
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="button-submit">
+                        Submit
+                    </button>
+                </div>
+
+
+            </form>
+        </div>
+        
+        
+    </body>
+</html>
